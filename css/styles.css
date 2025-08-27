@@ -1,5 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+SC:wght@300;400;500;600;700&family=Cutive+Mono&family=Libertinus+Serif+Display&family=Libertinus+Serif:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap');
 @font-face {
-    font-family: 'Montserrat'; 
+    font-family: "Cutive Mono", monospace;
     src: url('Montserrat-VariableFont_wght.ttf') format('truetype'); /* Ruta relativa o absoluta de tu archivo .ttf */
 }
 
@@ -22,10 +23,10 @@
 h1{
     font-size: 34px;
     font-weight: 700;
-    color: #1c9882;
+    color: #b77d98;
     text-align: center;
     padding-bottom: 50px;
-    border-bottom: 2px solid #7a93ab;
+    border-bottom: 2px solid #c999af;
 }
 
 .cont-flex{
@@ -40,7 +41,7 @@ h1{
 }
 
 h2{
-    color: #202d37;
+    color: #b77d98;
     font-weight: 700;
     font-size: 28px;
     margin-bottom: 14px;
@@ -79,7 +80,7 @@ form{
 .group-data label{ 
     display: block;
     margin-bottom: 10px;
-    color: #202d37;
+    color: #0f1011;
 }
 .group-data input,
 .group-data select{
@@ -92,24 +93,24 @@ form button{
     display: block;
     width: 97%;
     padding: 14px 80px;
-    background: #1c9882;
+    background: #b77d98;
     color: #fff;
-    border: 1px solid #1c9882;
+    border: 1px solid #b77d98;
     transition: .4s;
     cursor: pointer;
 }
 
 form button:hover{
     background: #f5f8fa;
-    border: 1px solid #1c9882;
-    color: #1c9882;
+    border: 1px solid #b77d98;
+    color: #b77d98;
 }
 
 input, select{
     padding: 14px 30px;
     background: #f5f8fa;
     border: 0;
-    border-bottom: 2px solid #7a93ab;
+    border-bottom: 2px solid #28292a;
     outline: none;
 }
 input::placeholder {
@@ -150,13 +151,13 @@ input::placeholder {
 }
 
 .right .post-simulation h3 span{
-    color: #1c9882;
+    color: #b77d98;
     font-weight: 600;
     font-size: 24px;
 }
 
 .right .total{
-    background: #1c988259;
+    background: #904c6c;
     padding: 30px;
 }
 
@@ -179,7 +180,7 @@ input::placeholder {
 
 .notificacion{
     padding: 20px;
-    border: 1px solid #1c9882;
+    border: 1px solid #be5888;
     margin-top: 40px;
 }
 
