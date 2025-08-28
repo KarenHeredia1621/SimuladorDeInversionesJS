@@ -26,6 +26,8 @@ function simulador() {
     if (clNombres == "" || clEmail == "" || clMonto == "" || clTiempo == "") {
         alert("Diligencie por favor todos los campos.")
     } else{
+        contPost.classList.remove('disabled');
+        contPre.classList.add('disabled');
     switch (clTiempo) {
         case '1':
             //en este caso realizaremos el calculo si el tiempo corresponde a un año
@@ -58,8 +60,7 @@ function simulador() {
     showGanancia.textContent = ganancia;
     showNombres.textContent = clNombres;
     showCorreo.textContent = clEmail;
-    contPost.classList.remove('disabled');
-    contPre.classList.add('disabled');
+
 
     }
 
