@@ -41,7 +41,7 @@ h1{
 }
 
 h2{
-    color: #b77d98;
+    color: #864764;
     font-weight: 700;
     font-size: 28px;
     margin-bottom: 14px;
@@ -157,7 +157,7 @@ input::placeholder {
 }
 
 .right .total{
-    background: #904c6c;
+    background: #c381a0;
     padding: 30px;
 }
 
