@@ -2,8 +2,7 @@ function simulador() {
     const contPre = document.getElementById("pre-simulation");
     const contPost = document.getElementById("post-simulation");
 
-    contPost.classList.remove('disabled');
-    contPre.classList.add('disabled');
+    
 
     //Variables que capturan los valores de los campos
     let clNombres = document.getElementById('clNombres').value;
@@ -24,6 +23,9 @@ function simulador() {
     let ganancia = 0
     let total = 0
 
+    if (clNombres == "" || clEmail == "" || clMonto == "" || clTiempo == "") {
+        alert("Diligencie por favor todos los campos.")
+    } else{
     switch (clTiempo) {
         case '1':
             //en este caso realizaremos el calculo si el tiempo corresponde a un año
@@ -52,12 +54,19 @@ function simulador() {
         
     }
 
-  
-
     showTotal.textContent = total;
     showGanancia.textContent = ganancia;
     showNombres.textContent = clNombres;
     showCorreo.textContent = clEmail;
+    contPost.classList.remove('disabled');
+    contPre.classList.add('disabled');
+
+    }
+
+
+
+  
+
 
 }
 
