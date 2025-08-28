@@ -2,8 +2,6 @@ function simulador() {
     const contPre = document.getElementById("pre-simulation");
     const contPost = document.getElementById("post-simulation");
 
-    
-
     //Variables que capturan los valores de los campos
     let clNombres = document.getElementById('clNombres').value;
     let clTelefono = document.getElementById('clTelefono').value;
@@ -28,6 +26,7 @@ function simulador() {
     } else{
         contPost.classList.remove('disabled');
         contPre.classList.add('disabled');
+
     switch (clTiempo) {
         case '1':
             //en este caso realizaremos el calculo si el tiempo corresponde a un año
@@ -64,14 +63,10 @@ function simulador() {
 
     }
 
-
-
-  
-
-
 }
 
     document.addEventListener('DOMContentLoaded', function () {
     document.getElementById('calcular').addEventListener('click', simulador);
+    
 });
 
